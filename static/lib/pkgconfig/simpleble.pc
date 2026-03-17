@@ -1,0 +1,11 @@
+prefix=C:/Program Files (x86)/simpleble
+exec_prefix=C:/Program Files (x86)/simpleble
+libdir=C:/Program Files (x86)/simpleble/lib
+includedir=C:/Program Files (x86)/simpleble/include
+
+Name: SimpleBLE
+Description: "The ultimate fully-fledged cross-platform library for Bluetooth Low Energy (BLE)."
+Version: 0.12.1
+Libs: -L${libdir} -lsimpleble 
+Cflags: -I${includedir}
+Conflicts:
